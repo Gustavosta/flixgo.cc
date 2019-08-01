@@ -1,0 +1,1274 @@
+
+
+
+#main.vip_page .redStar {
+	color: #ff293d
+}
+
+#main.vip_page .boxForCentration {
+	width: 930px;
+	margin: 0 auto
+}
+
+@media screen and (min-width: 1360px) {
+	#main.vip_page .boxForCentration {
+		width: 1280px
+	}
+}
+
+@media screen and (min-width: 1950px) {
+	#main.vip_page .boxForCentration {
+		width: 1650px
+	}
+}
+
+#main.vip_page .slogan {
+	color: #82858e;
+	font-size: 16px;
+	text-align: center;
+	padding-left: 7px;
+	line-height: 16px;
+	margin-bottom: 15px;
+}
+
+#main.vip_page .slogan.sloganRed {
+	color: #ff293d
+}
+
+#main.vip_page .slogan.sloganGreen {
+	color: #75c71b
+}
+
+#main.vip_page .rocket {
+	height: 400px;
+	color: #ffffff;
+	margin-bottom: 35px;
+	background: url("rocket.html") no-repeat top center;
+	background-size: 100%
+}
+
+@media screen and (min-width: 1950px) {
+	#main.vip_page .rocket {
+		height: 953px
+	}
+}
+
+#main.vip_page .rocket .boxForCentration {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	height: inherit;
+	padding-top: 80px
+}
+
+#main.vip_page .rocket .rocketBox {
+	width: 50%;
+	float: right
+}
+
+@media screen and (min-width: 1950px) {
+	#main.vip_page .rocket .rocketBox {
+		padding-top: 310px
+	}
+}
+
+#main.vip_page .rocket .rocketBox .beProEasy {
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 30px;
+	margin-bottom: 15px;
+	letter-spacing: 0.9px;
+	text-transform: uppercase
+}
+
+#main.vip_page .rocket .rocketBox .oneClick {
+	font-size: 30px;
+	font-weight: 100;
+	line-height: 35px;
+	margin-bottom: 35px;
+	letter-spacing: -0.4px
+}
+
+#main.vip_page .rocket .rocketBox .buttons {
+	width: 100%;
+	display: block;
+	text-align: left
+}
+
+#main.vip_page .rocket .rocketBox .buttons .buyVip {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+	color: #ffffff;
+	font-size: 22px;
+	cursor: pointer;
+	font-weight: bold;
+	padding: 20px 21px;
+	letter-spacing: 1.1px;
+	border: 2px solid #ffffff
+}
+
+#main.vip_page .rocket .rocketBox .buttons .buyVip:hover {
+	background: transparent;
+	border: 2px solid #ffffff
+}
+
+#main.vip_page .rocket .rocketBox .buttons .buyVip.pro-border {
+	margin-right: 20px;
+	border-color: #ff293d
+}
+
+#main.vip_page .rocket .rocketBox .buttons .buyVip.pro-border:hover {
+	color: #ff293d;
+	border-color: #d3d4da
+}
+
+#main.vip_page .rocket .rocketBox .buttons .buyVip.pro-plus-border {
+	margin-left: 20px;
+	border-color: #75c71b
+}
+
+#main.vip_page .rocket .rocketBox .buttons .buyVip.pro-plus-border:hover {
+	color: #75c71b;
+	border-color: #d3d4da
+}
+
+#main.vip_page .faq-pro {
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 30px;
+	margin: auto;
+	height: 130px;
+	display: block;
+	position: fixed;
+	background: #f26739;
+	border-radius: 5px 0 0 5px;
+	-webkit-border-radius: 5px 0 0 5px
+}
+
+#main.vip_page .faq-pro span {
+	top: 0;
+	right: 0;
+	left: 10px;
+	width: 70px;
+	color: #fff;
+	bottom: 40px;
+	display: block;
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 30px;
+	position: absolute;
+	transform: rotate(270deg)
+}
+
+#main.vip_page .faq-pro span:before {
+	top: 5px;
+	left: -40px;
+	content: '';
+	display: block;
+	position: absolute;
+	background: url("faq-pro.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 30px 20px;
+	background-size: 30px 20px;
+	width: 30px;
+	height: 20px;
+	vertical-align: middle
+}
+
+#main.vip_page .withSpan {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor: default;
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 80px;
+	margin-bottom: 25px
+}
+
+#main.vip_page .withSpan .descriptionImage {
+	color: #ffffff;
+	margin: 0 19px;
+	padding: 6px 10px;
+	background: #75c71b;
+	border-radius: 10px
+}
+
+#main.vip_page .withSpan .descriptionImage.descriptionRed {
+	background: #ff293d
+}
+
+#main.vip_page .withSpan .descriptionImage.smallPRO {
+	margin: 0 6px;
+	padding: 2px 9px
+}
+
+#main.vip_page .withSpan.buyNowPro {
+	-webkit-display: flex;
+	-moz-display: flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	-moz-justify-content: space-between;
+	justify-content: space-between;
+	display: -webkit-flex;
+	-webkit-flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap
+}
+
+#main.vip_page .withSpan.buyNow {
+	font-size: 30px;
+	text-align: left;
+	line-height: 44px;
+	padding: 43px 10px 0 50px
+}
+
+#main.vip_page .withSpan input[type="checkbox"]:checked+.divForFree {
+	background: #ffffff
+}
+
+#main.vip_page .withSpan input[type="checkbox"]:checked+.divForFree .freeBlock {
+	display: block
+}
+
+#main.vip_page .withSpan .descriptionGroup,
+#main.vip_page .withSpan .freeGroup {
+	display: block
+}
+
+#main.vip_page .proBox {
+	width: 100%;
+	text-align: center
+}
+
+#main.vip_page .proBox.proBoxRed {
+
+	
+}
+
+#main.vip_page .proBox.proBoxGreen {
+	background: url("pro-Recovered.html") no-repeat center;
+	background-size: cover
+}
+
+#main.vip_page .proBox .pricePro {
+	font-size: 0;
+	margin: 0 20px;
+	font-weight: 700;
+	text-align: justify
+}
+
+@media screen and (min-width: 1360px) {
+	#main.vip_page .proBox .pricePro {
+		margin: 0 50px
+	}
+}
+
+#main.vip_page .proBox .pricePro .proPriceItem {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+	/* width: 210px; */
+	text-align: center;
+	position: relative;
+	/* background: #fcfbf9; */
+	vertical-align: top;
+	padding-bottom: 35px;
+	display: inline-block;
+	/* box-shadow: -5px 5px 10px 0px #888888; */
+}
+
+#main.vip_page .proBox .pricePro .proPriceItem .priceCanvas {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 25px;
+	top: 0px;
+	left: -5px;
+	width: 220px;
+	height: 50px;
+	color: #ffffff;
+	font-size: 26px;
+	padding-top: 7px;
+	position: absolute;
+	background: #292c33;
+}
+
+#main.vip_page .proBox .pricePro .proPriceItem .priceCanvas:after {
+	
+	position: absolute;
+
+	border-right: solid 106px transparent;
+}
+
+#main.vip_page .proBox .pricePro .proPriceItem:last-child {
+	margin-right: 0
+}
+
+#main.vip_page .proBox .pricePro .proPriceItem .priceCanvasCosmos {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	right: -5px;
+	width: 220px;
+	height: 94px;
+	color: #ffffff;
+	font-size: 24px;
+	padding-top: 23px;
+	position: absolute;
+	background: url("cosmos.html") no-repeat center;
+	background-size: cover;
+}
+
+#main.vip_page .proBox .pricePro .proPriceItem .priceCanvasCosmos:after {
+	content: ' ';
+	margin: auto;
+	position: absolute;
+	top: -9px;
+	width: 64px;
+	right: -22px;
+	height: 128px;
+	background: url("bimba.html") no-repeat center;
+	background-size: 64px 128px
+}
+
+#main.vip_page .proBox .pricePro .proPriceItem .blockItem {
+	padding-top: 70px;
+	padding-left: 43px;
+	margin-bottom: 35px;
+}
+
+#main.vip_page .proBox .pricePro .proPriceItem .blockItem .priceValue {
+	font-size: 40px;
+	line-height: 40px;
+	margin-bottom: 10px
+}
+
+#main.vip_page .proBox .pricePro .proPriceItem .blockItem .priceValue .currency {
+	color: #a9abb2;
+	font-size: 20px;
+	font-weight: 500;
+	margin-left: -3px;
+	line-height: 27px;
+	vertical-align: top;
+	letter-spacing: 1.6px
+}
+
+#main.vip_page .proBox .pricePro .proPriceItem .blockItem .priceValue .other-currency {
+	display: block;
+	color: #aeb0b6;
+	font-size: 12px;
+	text-align: left;
+	line-height: 20px;
+	padding-left: 10px
+}
+
+#main.vip_page .proBox .pricePro .proPriceItem .choice-block {
+	width: 60%;
+	display: none;
+	margin: 20px auto 0
+}
+
+#main.vip_page .proBox .pricePro .proPriceItem .choice-block .choice-item {
+	width: 50%;
+	vertical-align: top;
+	display: inline-block
+}
+
+#main.vip_page .proBox .pricePro .proPriceItem .choice-block .choice-item input[type=radio] {
+	display: none
+}
+
+#main.vip_page .proBox .pricePro .proPriceItem .choice-block .choice-item input[type=radio]+label {
+	color: #000;
+	font-size: 14px;
+	cursor: pointer;
+	line-height: 13px
+}
+
+#main.vip_page .proBox .pricePro .proPriceItem .choice-block .choice-item input[type=radio]+label span {
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	browser-prefixes(browsers())-transition: .3s;
+	transition: .3s;
+	float: left;
+	width: 11px;
+	height: 11px;
+	cursor: pointer;
+	position: relative;
+	display: inline-block;
+	vertical-align: middle
+}
+
+#main.vip_page .proBox .pricePro .proPriceItem .choice-block .choice-item input[type=radio]+label span:before {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	background: url("radio_red.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 14px 14px;
+	background-size: 14px 14px;
+	width: 14px;
+	height: 14px;
+	vertical-align: middle;
+	content: ''
+}
+
+#main.vip_page .proBox .pricePro .proPriceItem .choice-block .choice-item input[type=radio]:checked+label span {
+	browser-prefixes(browsers())-transition: .3s;
+	transition: .3s;
+	background-color: #f26739
+}
+
+#main.vip_page .proBox .pricePro .proPriceItem .choice-block .choice-item input[type=radio]:checked+label span:before {
+	background: url("radioActive_red.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 14px 14px;
+	background-size: 14px 14px;
+	width: 14px;
+	height: 14px;
+	vertical-align: middle
+}
+
+#main.vip_page .proBox .pricePro .proPriceItem .payment-method {
+	display: none
+}
+
+#main.vip_page .proBox .pricePro .proPriceItem .payment-method .item {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	width: 148px;
+	height: 40px;
+	padding: 10px;
+	cursor: pointer;
+	margin: 10px auto 0;
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat
+}
+
+#main.vip_page .proBox .pricePro .proPriceItem .payment-method .item.qw {
+	color: #aeb0b6;
+	font-size: 10px;
+	line-height: 55px;
+	background-image: url("qiwi-logo.html")
+}
+
+#main.vip_page .proBox .pricePro .proPriceItem .payment-method .item.wm {
+	background-image: url("wm-logo.html")
+}
+
+#main.vip_page .proBox .pricePro .proPriceItem .payment-method .item.visa {
+	background-image: url("visamc.html")
+}
+
+#main.vip_page .proBox .pricePro .proPriceItem .payment-method .item.ac {
+	background-image: url("adc-logo.html")
+}
+
+#main.vip_page .proBox .pricePro .proPriceItem .payment-method .item.mk {
+	height: 70px;
+	background-image: url("megakassa.html")
+}
+
+#main.vip_page .proBox .pricePro .proPriceItem .payment-method .item.ik {
+	height: 70px;
+	background-image: url("interkassa.html")
+}
+
+#main.vip_page .proBox .pricePro .proPriceItem .payment-method .item.paypal {
+	height: 40px;
+	background-image: url("paypal.html")
+}
+
+#main.vip_page .proBox .pricePro .proPriceItem .payment-method .item.bitcoin {
+	height: 40px;
+	background-image: url("bitcoin.html")
+}
+
+#main.vip_page .proBox .pricePro .proPriceItem .payment-method .item:hover {
+	opacity: 0.7
+}
+
+#main.vip_page .proBox .pricePro:after {
+	content: '';
+	width: 100%;
+	display: inline-block
+}
+
+#main.vip_page .proBox .forSale {
+	padding: 50px;
+	display: block;
+	font-size: 12px;
+	line-height: 16px
+}
+
+#main.vip_page .proBox .forSale:first-of-type {
+	padding-top: 50px
+}
+
+#main.vip_page .proBox .forSale:last-of-type {
+	padding-bottom: 50px
+}
+
+#main.vip_page .buttons {
+	bottom: 0;
+	text-align: center;
+}
+
+#main.vip_page .buttons .buyVip {
+	color: #171920;
+	font-size: 20px;
+	cursor: pointer;
+	font-weight: bold;
+	text-align: center;
+	padding: 15px 24px;
+	display: inline-block;
+	-webkit-font-smoothing: antialiased;
+	background: #ffd200;
+}
+
+#main.vip_page .buttons .buyVip:hover {
+	browser-prefixes(browsers())-transition: .3s;
+	color: #ffffff;
+	border-color: #ffd200;
+}
+
+#main.vip_page .buttons .buyVip.buyPRO {
+}
+
+#main.vip_page .buttons .buyVip.buyPRO:hover {
+	background: #ffd200;
+}
+
+#main.vip_page .divForFree {
+	-webkit-border-radius: 10px 10px 0 0;
+	-moz-border-radius: 10px 10px 0 0;
+	-o-border-radius: 10px 10px 0 0;
+	border-radius: 10px 10px 0 0;
+	position: relative;
+	padding: 0 30px 16px
+}
+
+#main.vip_page .divForFree #wantProFree {
+	color: #fb4e5c;
+	cursor: pointer;
+	font-size: 24px;
+	margin-top: 32px;
+	font-weight: 100;
+	line-height: 24px;
+	border-bottom: 2px dotted #fb4e5c
+}
+
+#main.vip_page .divForFree .freeBlock {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-webkit-border-radius: 10px 0 10px 10px;
+	-moz-border-radius: 10px 0 10px 10px;
+	-o-border-radius: 10px 0 10px 10px;
+	border-radius: 10px 0 10px 10px;
+	right: 0;
+	top: 60px;
+	z-index: 10;
+	width: 910px;
+	padding: 40px;
+	display: none;
+	position: absolute;
+	background: #ffffff;
+	box-shadow: inset 0 -1px 0 0 rgba(51, 55, 62, 0.42)
+}
+
+#main.vip_page .divForFree .freeBlock .freeTitle {
+	font-size: 24px;
+	line-height: 25px;
+	margin-bottom: 17px
+}
+
+#main.vip_page .divForFree .freeBlock .freeDescription {
+	color: #535865;
+	font-size: 16px;
+	font-weight: 100;
+	line-height: 25px;
+	margin-bottom: 27px
+}
+
+#main.vip_page .divForFree .freeBlock .freeItems {
+	font-size: 0
+}
+
+#main.vip_page .divForFree .freeBlock .freeItems .freeItemsBlock {
+	margin: 0;
+	width: 50%;
+	vertical-align: top;
+	display: inline-block
+}
+
+#main.vip_page .divForFree .freeBlock .freeItems .freeItemsBlock.freeItemsBlock2 {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	padding-left: 34px
+}
+
+#main.vip_page .divForFree .freeBlock .freeItems .freeItemsBlock .itemMain {
+	font-size: 20px;
+	line-height: 25px;
+	margin-bottom: 25px
+}
+
+#main.vip_page .divForFree .freeBlock .freeItems .freeItemsBlock .item {
+	font-size: 16px;
+	font-weight: 100;
+	line-height: 35px;
+	padding-left: 55px;
+	position: relative;
+	margin-bottom: 5px;
+	vertical-align: top;
+	display: inline-block
+}
+
+#main.vip_page .divForFree .freeBlock .freeItems .freeItemsBlock .item:before {
+	left: 0;
+	right: 0;
+	width: 45px;
+	color: #bab9b9;
+	font-size: 35px;
+	text-align: center;
+	display: inline-block
+}
+
+#main.vip_page .opportunities {
+
+	text-align: center;
+
+	background-color: #0f1016;
+}
+
+#main.vip_page .opportunities .description {
+	margin: 35px 0;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 18px
+}
+
+#main.vip_page .opportunities .advantages {
+	font-size: 0
+}
+
+#main.vip_page .opportunities .advantages .advantage {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	width: 22%;
+	color: #e1e4ea;
+	font-size: 16px;
+	line-height: 20px;
+	position: relative;
+	vertical-align: top;
+	margin-bottom: 25px;
+	display: inline-block;
+	padding: 110px 15px 0;
+	text-transform: uppercase;
+}
+
+#main.vip_page .opportunities .advantages .advantage:before {
+	left: 0;
+	right: 0;
+	top: 37px;
+	content: '';
+	z-index: 10;
+	margin: auto;
+	position: absolute
+}
+
+#main.vip_page .opportunities .advantages .advantage.advantageAds:before {
+	background: url("proAds.png") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 65px 61px;
+	background-size: 65px 61px;
+	width: 65px;
+	height: 61px;
+	vertical-align: middle;
+	top: 30px
+}
+
+#main.vip_page .opportunities .advantages .advantage.advantageOnlineHide:before {
+	background: url("proOnlineHide.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 68px 61px;
+	background-size: 68px 61px;
+	width: 68px;
+	height: 61px;
+	vertical-align: middle;
+	top: 30px
+}
+
+#main.vip_page .opportunities .advantages .advantage.advantageAnonim:before {
+	background: url("proAnonim.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 53px 64px;
+	background-size: 53px 64px;
+	width: 53px;
+	height: 64px;
+	vertical-align: middle;
+	top: 29px
+}
+
+#main.vip_page .opportunities .advantages .advantage.advantageChangeColor:before {
+	background: url("proChangeColor.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 64px 65px;
+	background-size: 70px;
+	width: 70px;
+	height: 65px;
+	vertical-align: middle;
+	top: 28px
+}
+
+#main.vip_page .opportunities .advantages .advantage.advantageAddImage:before {
+	background: url("proAddImage.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 64px 74px;
+	background-size: 64px 74px;
+	width: 64px;
+	height: 74px;
+	vertical-align: middle;
+	top: 22px
+}
+
+#main.vip_page .opportunities .advantages .advantage.advantageProfileBackground:before {
+	background: url("proProfileBackground.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 64px 58px;
+	background-size: 64px 58px;
+	width: 64px;
+	height: 58px;
+	vertical-align: middle;
+	top: 22px
+}
+
+#main.vip_page .opportunities .advantages .advantage.advantageProIcon:before {
+	background: url("proProIcon.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 53px 63px;
+	background-size: 53px 63px;
+	width: 53px;
+	height: 63px;
+	vertical-align: middle;
+	top: 30px;
+	top: 22px
+}
+
+#main.vip_page .opportunities .advantages .advantage.advantageProIconPro:before {
+	background: url("proProIconPro.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 53px 63px;
+	background-size: 53px 63px;
+	width: 53px;
+	height: 63px;
+	vertical-align: middle;
+	top: 30px
+}
+
+#main.vip_page .opportunities .advantages .advantage.advantageYourBackground:before {
+	background: url("proYourBackground.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 59px 64px;
+	background-size: 59px 64px;
+	width: 59px;
+	height: 64px;
+	vertical-align: middle;
+	top: 29px
+}
+
+#main.vip_page .opportunities .advantages .advantage.advantageCom:before {
+	background: url("proComment.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 64px 51px;
+	background-size: 64px 51px;
+	width: 64px;
+	height: 51px;
+	vertical-align: middle
+}
+
+#main.vip_page .opportunities .advantages .advantage.advantageRocket:before {
+	background: url("proRocket.png") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 64px 62px;
+	background-size: 63px;
+	width: 63px;
+	height: 62px;
+	vertical-align: middle;
+	top: 29px
+}
+#main.vip_page .opportunities .advantages .advantage.advantageChAp:before {
+	background: url("prochromecast.png") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 64px 62px;
+	background-size: 55px;
+	width: 55px;
+	height: 62px;
+	vertical-align: middle;
+	top: 29px
+}
+
+#main.vip_page .opportunities .advantages .advantage.advantageScreen:before {
+	top: 31px;
+	background: url("proScreen.png") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 64px 62px;
+	background-size: 70px;
+	width: 70px;
+	height: 62px;
+	vertical-align: middle
+}
+
+#main.vip_page .opportunities .advantages .advantage.advantageScreenPro:before {
+	top: 31px;
+	background: url("proScreenPro.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 64px 62px;
+	background-size: 70px;
+	width: 70px;
+	height: 62px;
+	vertical-align: middle
+}
+
+#main.vip_page .opportunities .advantages .advantage.advantageScreenUltraPro:before {
+	top: 31px;
+	background: url("proScreenUltraPro.png") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 64px 62px;
+	background-size: 70px;
+	width: 70px;
+	height: 62px;
+	vertical-align: middle
+}
+
+#main.vip_page .opportunities .advantages .advantage.advantageMobile:before {
+	top: 31px;
+	background: url("proMobile.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 64px 62px;
+	background-size: 70px;
+	width: 70px;
+	height: 62px;
+	vertical-align: middle
+}
+
+#main.vip_page .opportunities .advantages .advantage.advantageMobilePro:before {
+	top: 31px;
+	background: url("proMobilePro.png") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 34px;
+	background-size: 40px;
+	width: 40px;
+	height: 70px;
+	vertical-align: middle
+}
+
+#main.vip_page .opportunities .advantages .advantage.advantageCrown:before {
+	background: url("proCrown.png") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 64px 50px;
+	background-size: 64px 50px;
+	width: 64px;
+	height: 50px;
+	vertical-align: middle
+}
+
+#main.vip_page .opportunities .advantages .advantage.advantagePageBackground:before {
+	background: url("proPageBackground.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 64px 48px;
+	background-size: 64px 48px;
+	width: 64px;
+	height: 48px;
+	vertical-align: middle
+}
+
+#main.vip_page .opportunities .advantages .advantage.advantageSiteBackground:before {
+	top: 29px;
+	background: url("proSiteBackground.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 59px 64px;
+	background-size: 59px 64px;
+	width: 59px;
+	height: 64px;
+	vertical-align: middle
+}
+
+#main.vip_page .opportunities .advantages .advantage.advantageLoginColor:before {
+	top: 29px;
+	background: url("proLoginColor.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 64px 65px;
+	background-size: 70px;
+	width: 70px;
+	height: 65px;
+	vertical-align: middle
+}
+
+#main.vip_page .opportunities .advantages .advantage.advantageBoardOrders:before {
+	top: 29px;
+	background: url("proDesk.png") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 64px 65px;
+	background-size: 49px;
+	width: 49px;
+	height: 65px;
+	vertical-align: middle
+}
+
+#main.vip_page .opportunities .advantages .advantage.advantageDownload:before {
+	top: 29px;
+	background: url("proDownload.png") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 64px 65px;
+	background-size: 70px;
+	width: 70px;
+	height: 65px;
+	vertical-align: middle
+}
+
+#main.vip_page .opportunities .advantages .advantage.advantageHideMovie:before {
+	top: 29px;
+	background: url("proHideMovie.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 64px 65px;
+	background-size: 70px;
+	width: 70px;
+	height: 65px;
+	vertical-align: middle
+}
+
+#main.vip_page .opportunities .advantages .advantage.advantageLockedUrl:before {
+	top: 29px;
+	background: url("proLockedUrl.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 64px 65px;
+	background-size: 70px;
+	width: 70px;
+	height: 65px;
+	vertical-align: middle
+}
+
+#main.vip_page .opportunities .advantages .advantage.advantageProTelegram:before {
+	top: 29px;
+	background: url("proTelegram.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 64px 65px;
+	background-size: 70px;
+	width: 70px;
+	height: 65px;
+	vertical-align: middle
+}
+
+#main.vip_page .opportunities .advantages .advantage.advantageProPlusTelegram:before {
+	top: 29px;
+	background: url("proPlusTelegram.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 64px 65px;
+	background-size: 70px;
+	width: 70px;
+	height: 65px;
+	vertical-align: middle
+}
+
+#main.vip_page .opportunities .advantages .advantage.advantageAndroid:before {
+	top: 29px;
+	background: url("proAndroid.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 64px 65px;
+	background-size: 70px;
+	width: 70px;
+	height: 65px;
+	vertical-align: middle
+}
+
+#main.vip_page .megakassa_form,
+#main.vip_page .webmoney_form,
+#main.vip_page .advcash_form {
+	display: none
+}
+
+@media screen and (min-width: 1360px) {
+	#main.vip_page #content .withSpan .divForFree .freeBlock {
+		width: 1250px
+	}
+}
+
+@media screen and (min-width: 1950px) {
+	#main.vip_page #content .withSpan .divForFree .freeBlock {
+		width: 1620px
+	}
+}
+
+.dark_skin #main.vip_page .description,
+.dark_skin #main.vip_page .withSpan {
+	color: #d3d4da
+}
+
+.dark_skin #main.vip_page .description .descriptionGroup,
+.dark_skin #main.vip_page .description.buyNow,
+.dark_skin #main.vip_page .withSpan .descriptionGroup,
+.dark_skin #main.vip_page .withSpan.buyNow {
+	color: #292c33
+}
+
+.dark_skin #main.vip_page .advantages .advantage {
+	color: #8f95a3
+}
+
+.dark_skin #main.vip_page .advantages .advantage.advantageAds:before {
+	background: url("proAds-dark.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 65px 61px;
+	background-size: 65px 61px;
+	width: 65px;
+	height: 61px;
+	vertical-align: middle;
+	top: 30px
+}
+
+.dark_skin #main.vip_page .advantages .advantage.advantageOnlineHide:before {
+	background: url("proOnlineHide-dark.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 68px 61px;
+	background-size: 68px 61px;
+	width: 68px;
+	height: 61px;
+	vertical-align: middle;
+	top: 30px
+}
+
+.dark_skin #main.vip_page .advantages .advantage.advantageAnonim:before {
+	background: url("proAnonim-dark.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 53px 64px;
+	background-size: 53px 64px;
+	width: 53px;
+	height: 64px;
+	vertical-align: middle;
+	top: 29px
+}
+
+.dark_skin #main.vip_page .advantages .advantage.advantageChangeColor:before {
+	background: url("proChangeColor-dark.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 64px 65px;
+	background-size: 70px;
+	width: 70px;
+	height: 65px;
+	vertical-align: middle;
+	top: 28px
+}
+
+.dark_skin #main.vip_page .advantages .advantage.advantageAddImage:before {
+	background: url("proAddImage-dark.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 64px 74px;
+	background-size: 64px 74px;
+	width: 64px;
+	height: 74px;
+	vertical-align: middle;
+	top: 22px
+}
+
+.dark_skin #main.vip_page .advantages .advantage.advantageProfileBackground:before {
+	background: url("proProfileBackground-dark.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 64px 58px;
+	background-size: 64px 58px;
+	width: 64px;
+	height: 58px;
+	vertical-align: middle;
+	top: 22px
+}
+
+.dark_skin #main.vip_page .advantages .advantage.advantageProIcon:before {
+	background: url("proProIcon-dark.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 53px 63px;
+	background-size: 53px 63px;
+	width: 53px;
+	height: 63px;
+	vertical-align: middle;
+	top: 30px;
+	top: 22px
+}
+
+.dark_skin #main.vip_page .advantages .advantage.advantageProIconPro:before {
+	background: url("proProIconPro-dark.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 53px 63px;
+	background-size: 53px 63px;
+	width: 53px;
+	height: 63px;
+	vertical-align: middle;
+	top: 30px
+}
+
+.dark_skin #main.vip_page .advantages .advantage.advantageYourBackground:before {
+	background: url("proYourBackground-dark.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 59px 64px;
+	background-size: 59px 64px;
+	width: 59px;
+	height: 64px;
+	vertical-align: middle;
+	top: 29px
+}
+
+.dark_skin #main.vip_page .advantages .advantage.advantageCom:before {
+	background: url("proComment-dark.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 64px 51px;
+	background-size: 64px 51px;
+	width: 64px;
+	height: 51px;
+	vertical-align: middle
+}
+
+.dark_skin #main.vip_page .advantages .advantage.advantageRocket:before {
+	background: url("proRocket-dark.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 64px 62px;
+	background-size: 70px;
+	width: 70px;
+	height: 62px;
+	vertical-align: middle;
+	top: 29px
+}
+
+.dark_skin #main.vip_page .advantages .advantage.advantageScreen:before {
+	top: 31px;
+	background: url("proScreen-dark.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 64px 62px;
+	background-size: 70px;
+	width: 70px;
+	height: 62px;
+	vertical-align: middle
+}
+
+.dark_skin #main.vip_page .advantages .advantage.advantageScreenPro:before {
+	top: 31px;
+	background: url("proScreenPro-dark.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 64px 62px;
+	background-size: 70px;
+	width: 70px;
+	height: 62px;
+	vertical-align: middle
+}
+
+.dark_skin #main.vip_page .advantages .advantage.advantageScreenUltraPro:before {
+	top: 31px;
+	background: url("proScreenUltraPro-dark.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 64px 62px;
+	background-size: 70px;
+	width: 70px;
+	height: 62px;
+	vertical-align: middle
+}
+
+.dark_skin #main.vip_page .advantages .advantage.advantageMobile:before {
+	top: 31px;
+	background: url("proMobile-dark.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 64px 62px;
+	background-size: 70px;
+	width: 70px;
+	height: 62px;
+	vertical-align: middle
+}
+
+.dark_skin #main.vip_page .advantages .advantage.advantageMobilePro:before {
+	top: 31px;
+	background: url("proMobilePro-dark.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 64px 62px;
+	background-size: 70px;
+	width: 70px;
+	height: 62px;
+	vertical-align: middle
+}
+
+.dark_skin #main.vip_page .advantages .advantage.advantageCrown:before {
+	background: url("proCrown-dark.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 64px 50px;
+	background-size: 64px 50px;
+	width: 64px;
+	height: 50px;
+	vertical-align: middle
+}
+
+.dark_skin #main.vip_page .advantages .advantage.advantagePageBackground:before {
+	background: url("proPageBackground-dark.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 64px 48px;
+	background-size: 64px 48px;
+	width: 64px;
+	height: 48px;
+	vertical-align: middle
+}
+
+.dark_skin #main.vip_page .advantages .advantage.advantageSiteBackground:before {
+	top: 29px;
+	background: url("proSiteBackground-dark.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 59px 64px;
+	background-size: 59px 64px;
+	width: 59px;
+	height: 64px;
+	vertical-align: middle
+}
+
+.dark_skin #main.vip_page .advantages .advantage.advantageLoginColor:before {
+	top: 29px;
+	background: url("proLoginColor-dark.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 64px 65px;
+	background-size: 70px;
+	width: 70px;
+	height: 65px;
+	vertical-align: middle
+}
+
+.dark_skin #main.vip_page .advantages .advantage.advantageBoardOrders:before {
+	top: 29px;
+	background: url("proDesk-dark.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 64px 65px;
+	background-size: 70px;
+	width: 70px;
+	height: 65px;
+	vertical-align: middle
+}
+
+.dark_skin #main.vip_page .advantages .advantage.advantageDownload:before {
+	top: 29px;
+	background: url("proDownload-dark.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 64px 65px;
+	background-size: 70px;
+	width: 70px;
+	height: 65px;
+	vertical-align: middle
+}
+
+.dark_skin #main.vip_page .advantages .advantage.advantageHideMovie:before {
+	top: 29px;
+	background: url("proHideMovie-dark.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 64px 65px;
+	background-size: 70px;
+	width: 70px;
+	height: 65px;
+	vertical-align: middle
+}
+
+.dark_skin #main.vip_page .advantages .advantage.advantageLockedUrl:before {
+	top: 29px;
+	background: url("proLockedUrl-dark.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 64px 65px;
+	background-size: 70px;
+	width: 70px;
+	height: 65px;
+	vertical-align: middle
+}
+
+.dark_skin #main.vip_page .advantages .advantage.advantageProTelegram:before {
+	top: 29px;
+	background: url("proTelegram-dark.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 64px 65px;
+	background-size: 70px;
+	width: 70px;
+	height: 65px;
+	vertical-align: middle
+}
+
+.dark_skin #main.vip_page .advantages .advantage.advantageProPlusTelegram:before {
+	top: 29px;
+	background: url("proPlusTelegram-dark.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 64px 65px;
+	background-size: 70px;
+	width: 70px;
+	height: 65px;
+	vertical-align: middle
+}
+
+.dark_skin #main.vip_page .advantages .advantage.advantageAndroid:before {
+	top: 29px;
+	background: url("proAndroid-dark.html") no-repeat 0 0;
+	browser-prefixes(browsers())-background-size: 64px 65px;
+	background-size: 70px;
+	width: 70px;
+	height: 65px;
+	vertical-align: middle
+}
+
+
+.line-block #dle-content .result .result-title {
+	padding: 0;
+	margin-top: 4px
+}
